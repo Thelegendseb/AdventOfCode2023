@@ -7,7 +7,7 @@ def read_input(day):
     try:
         with open(input_file_path, "r") as file:
             input_data = file.read()
-            return input_data
+            return input_data.splitlines()
     except FileNotFoundError:
         print(f"Input file for Day {day} not found.")
         return None
