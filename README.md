@@ -9,11 +9,12 @@ This directory contains my implementations for the Advent of Code 2023
 
 ### Running a Specific Day's Solution and Part
 
-```bash
+```bash 
 python main.py <day> <part>
 ```
 Replace <day_number> with the day you want to run.
-Replace <dpart> with the part of the challenge you want to run.
+
+Replace &lt;part&gt; with the part of the challenge you want to run.
 ### Example
 ```bash
 python main.py 1 1
